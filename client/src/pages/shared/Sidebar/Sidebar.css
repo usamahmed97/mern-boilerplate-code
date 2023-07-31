@@ -1,0 +1,33 @@
+#sidebar li.ant-menu-item {
+  border-radius: 100px;
+}
+
+.ant-layout-sider-trigger {
+  background: #ffffff !important;
+}
+
+.ant-layout-sider {
+  height: auto;
+}
+
+.ant-menu-item-selected {
+  color: #49c5b1 !important;
+  background-color: #e2fafa !important;
+}
+
+.ant-menu-item-active {
+  color: #49c5b1 !important;
+  background-color: #e2fafa;
+}
+
+.ant-menu-item:not([class*="ant-menu-item-selected"]):not(
+    [class*="ant-menu-item-active"]
+  ) {
+  color: grey !important;
+  height: 40px;
+}
+
+.ant-menu-submenu-title {
+  color: grey !important;
+  height: 40px;
+}
